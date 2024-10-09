@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import cleancode.mission.day7.studycafe.exception.AppException;
-import cleancode.mission.day7.studycafe.model.StudyCafePass;
+import cleancode.mission.day7.studycafe.model.pass.StudyCafePass;
 import cleancode.mission.day7.studycafe.model.StudyCafePassType;
 
 public class InputHandler {
