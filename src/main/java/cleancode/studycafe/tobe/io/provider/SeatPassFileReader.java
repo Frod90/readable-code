@@ -13,7 +13,7 @@ import cleancode.studycafe.tobe.provider.SeatPassProvider;
 
 public class SeatPassFileReader implements SeatPassProvider {
 
-	public static final String LOCkER_LIST_CSV_PATH = "src/main/resources/cleancode/studycafe/pass-list.csv";
+	private static final String LOCkER_LIST_CSV_PATH = "src/main/resources/cleancode/studycafe/pass-list.csv";
 
 	@Override
 	public StudyCafeSeatPasses getSeatPasses() {

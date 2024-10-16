@@ -7,7 +7,7 @@ import cleancode.studycafe.tobe.model.pass.StudyCafeSeatPass;
 
 public class StudyCafeLockerPasses {
 
-	private List<StudyCafeLockerPass> lockerPasses;
+	private final List<StudyCafeLockerPass> lockerPasses;
 
 	private StudyCafeLockerPasses(List<StudyCafeLockerPass> passes) {
 		this.lockerPasses = passes;
